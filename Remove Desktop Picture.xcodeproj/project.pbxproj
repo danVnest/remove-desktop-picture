@@ -7,28 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		95FB630F16E1D1CA0010BD02 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95FB630E16E1D1CA0010BD02 /* Cocoa.framework */; };
+		9545FB3A16E234100009EF0D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95FB630E16E1D1CA0010BD02 /* Cocoa.framework */; };
+		9545FB3C16E234AC0009EF0D /* Trash.icns in Resources */ = {isa = PBXBuildFile; fileRef = 9545FB3B16E234AC0009EF0D /* Trash.icns */; };
 		95FB631916E1D1CA0010BD02 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 95FB631716E1D1CA0010BD02 /* InfoPlist.strings */; };
 		95FB631B16E1D1CA0010BD02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FB631A16E1D1CA0010BD02 /* main.m */; };
 		95FB631F16E1D1CA0010BD02 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 95FB631D16E1D1CA0010BD02 /* Credits.rtf */; };
-		95FB632216E1D1CA0010BD02 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FB632116E1D1CA0010BD02 /* AppDelegate.m */; };
-		95FB632516E1D1CA0010BD02 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95FB632316E1D1CA0010BD02 /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9545FB3B16E234AC0009EF0D /* Trash.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Trash.icns; sourceTree = "<group>"; };
 		95FB630B16E1D1CA0010BD02 /* Remove Desktop Picture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Remove Desktop Picture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95FB630E16E1D1CA0010BD02 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		95FB631116E1D1CA0010BD02 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		95FB631216E1D1CA0010BD02 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		95FB631316E1D1CA0010BD02 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		95FB631616E1D1CA0010BD02 /* Remove Desktop Picture-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Remove Desktop Picture-Info.plist"; sourceTree = "<group>"; };
 		95FB631816E1D1CA0010BD02 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		95FB631A16E1D1CA0010BD02 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		95FB631C16E1D1CA0010BD02 /* Remove Desktop Picture-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Remove Desktop Picture-Prefix.pch"; sourceTree = "<group>"; };
 		95FB631E16E1D1CA0010BD02 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		95FB632016E1D1CA0010BD02 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		95FB632116E1D1CA0010BD02 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		95FB632416E1D1CA0010BD02 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +30,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95FB630F16E1D1CA0010BD02 /* Cocoa.framework in Frameworks */,
+				9545FB3A16E234100009EF0D /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,27 +58,14 @@
 			isa = PBXGroup;
 			children = (
 				95FB630E16E1D1CA0010BD02 /* Cocoa.framework */,
-				95FB631016E1D1CA0010BD02 /* Other Frameworks */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		95FB631016E1D1CA0010BD02 /* Other Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				95FB631116E1D1CA0010BD02 /* AppKit.framework */,
-				95FB631216E1D1CA0010BD02 /* CoreData.framework */,
-				95FB631316E1D1CA0010BD02 /* Foundation.framework */,
-			);
-			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
 		95FB631416E1D1CA0010BD02 /* Remove Desktop Picture */ = {
 			isa = PBXGroup;
 			children = (
-				95FB632016E1D1CA0010BD02 /* AppDelegate.h */,
-				95FB632116E1D1CA0010BD02 /* AppDelegate.m */,
-				95FB632316E1D1CA0010BD02 /* MainMenu.xib */,
+				95FB631A16E1D1CA0010BD02 /* main.m */,
 				95FB631516E1D1CA0010BD02 /* Supporting Files */,
 			);
 			path = "Remove Desktop Picture";
@@ -93,9 +74,9 @@
 		95FB631516E1D1CA0010BD02 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9545FB3B16E234AC0009EF0D /* Trash.icns */,
 				95FB631616E1D1CA0010BD02 /* Remove Desktop Picture-Info.plist */,
 				95FB631716E1D1CA0010BD02 /* InfoPlist.strings */,
-				95FB631A16E1D1CA0010BD02 /* main.m */,
 				95FB631C16E1D1CA0010BD02 /* Remove Desktop Picture-Prefix.pch */,
 				95FB631D16E1D1CA0010BD02 /* Credits.rtf */,
 			);
@@ -155,7 +136,7 @@
 			files = (
 				95FB631916E1D1CA0010BD02 /* InfoPlist.strings in Resources */,
 				95FB631F16E1D1CA0010BD02 /* Credits.rtf in Resources */,
-				95FB632516E1D1CA0010BD02 /* MainMenu.xib in Resources */,
+				9545FB3C16E234AC0009EF0D /* Trash.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,7 +148,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				95FB631B16E1D1CA0010BD02 /* main.m in Sources */,
-				95FB632216E1D1CA0010BD02 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,14 +168,6 @@
 				95FB631E16E1D1CA0010BD02 /* en */,
 			);
 			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
-		95FB632316E1D1CA0010BD02 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				95FB632416E1D1CA0010BD02 /* en */,
-			);
-			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -303,6 +275,7 @@
 				95FB632A16E1D1CA0010BD02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
